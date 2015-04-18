@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EF083AA1AE2E49F00938A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF083A91AE2E49F00938A11 /* AppDelegate.swift */; };
+		4EF083AC1AE2E49F00938A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF083AB1AE2E49F00938A11 /* ViewController.swift */; };
+		4EF083AE1AE2E49F00938A11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF083AD1AE2E49F00938A11 /* Images.xcassets */; };
+		4EF083B11AE2E49F00938A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF083AF1AE2E49F00938A11 /* Main.storyboard */; };
+		4EF083BD1AE2E49F00938A11 /* messenger_for_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF083BC1AE2E49F00938A11 /* messenger_for_macTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EF083B71AE2E49F00938A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EF0839C1AE2E49F00938A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EF083A31AE2E49F00938A11;
+			remoteInfo = "messenger-for-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EF083A41AE2E49F00938A11 /* messenger-for-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "messenger-for-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF083A81AE2E49F00938A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF083A91AE2E49F00938A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EF083AB1AE2E49F00938A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EF083AD1AE2E49F00938A11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EF083B01AE2E49F00938A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EF083B61AE2E49F00938A11 /* messenger-for-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "messenger-for-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF083BB1AE2E49F00938A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF083BC1AE2E49F00938A11 /* messenger_for_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messenger_for_macTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF083A11AE2E49F00938A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF083B31AE2E49F00938A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF0839B1AE2E49F00938A11 = {
+			isa = PBXGroup;
+			children = (
+				4EF083A61AE2E49F00938A11 /* messenger-for-mac */,
+				4EF083B91AE2E49F00938A11 /* messenger-for-macTests */,
+				4EF083A51AE2E49F00938A11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EF083A51AE2E49F00938A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF083A41AE2E49F00938A11 /* messenger-for-mac.app */,
+				4EF083B61AE2E49F00938A11 /* messenger-for-macTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EF083A61AE2E49F00938A11 /* messenger-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				4EF083A91AE2E49F00938A11 /* AppDelegate.swift */,
+				4EF083AB1AE2E49F00938A11 /* ViewController.swift */,
+				4EF083AD1AE2E49F00938A11 /* Images.xcassets */,
+				4EF083AF1AE2E49F00938A11 /* Main.storyboard */,
+				4EF083A71AE2E49F00938A11 /* Supporting Files */,
+			);
+			path = "messenger-for-mac";
+			sourceTree = "<group>";
+		};
+		4EF083A71AE2E49F00938A11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EF083A81AE2E49F00938A11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EF083B91AE2E49F00938A11 /* messenger-for-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EF083BC1AE2E49F00938A11 /* messenger_for_macTests.swift */,
+				4EF083BA1AE2E49F00938A11 /* Supporting Files */,
+			);
+			path = "messenger-for-macTests";
+			sourceTree = "<group>";
+		};
+		4EF083BA1AE2E49F00938A11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EF083BB1AE2E49F00938A11 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EF083A31AE2E49F00938A11 /* messenger-for-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF083C01AE2E49F00938A11 /* Build configuration list for PBXNativeTarget "messenger-for-mac" */;
+			buildPhases = (
+				4EF083A01AE2E49F00938A11 /* Sources */,
+				4EF083A11AE2E49F00938A11 /* Frameworks */,
+				4EF083A21AE2E49F00938A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "messenger-for-mac";
+			productName = "messenger-for-mac";
+			productReference = 4EF083A41AE2E49F00938A11 /* messenger-for-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EF083B51AE2E49F00938A11 /* messenger-for-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF083C31AE2E49F00938A11 /* Build configuration list for PBXNativeTarget "messenger-for-macTests" */;
+			buildPhases = (
+				4EF083B21AE2E49F00938A11 /* Sources */,
+				4EF083B31AE2E49F00938A11 /* Frameworks */,
+				4EF083B41AE2E49F00938A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF083B81AE2E49F00938A11 /* PBXTargetDependency */,
+			);
+			name = "messenger-for-macTests";
+			productName = "messenger-for-macTests";
+			productReference = 4EF083B61AE2E49F00938A11 /* messenger-for-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF0839C1AE2E49F00938A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Poros;
+				TargetAttributes = {
+					4EF083A31AE2E49F00938A11 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4EF083B51AE2E49F00938A11 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4EF083A31AE2E49F00938A11;
+					};
+				};
+			};
+			buildConfigurationList = 4EF0839F1AE2E49F00938A11 /* Build configuration list for PBXProject "messenger-for-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EF0839B1AE2E49F00938A11;
+			productRefGroup = 4EF083A51AE2E49F00938A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EF083A31AE2E49F00938A11 /* messenger-for-mac */,
+				4EF083B51AE2E49F00938A11 /* messenger-for-macTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF083A21AE2E49F00938A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF083AE1AE2E49F00938A11 /* Images.xcassets in Resources */,
+				4EF083B11AE2E49F00938A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF083B41AE2E49F00938A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EF083A01AE2E49F00938A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF083AC1AE2E49F00938A11 /* ViewController.swift in Sources */,
+				4EF083AA1AE2E49F00938A11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF083B21AE2E49F00938A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF083BD1AE2E49F00938A11 /* messenger_for_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EF083B81AE2E49F00938A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EF083A31AE2E49F00938A11 /* messenger-for-mac */;
+			targetProxy = 4EF083B71AE2E49F00938A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EF083AF1AE2E49F00938A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EF083B01AE2E49F00938A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EF083BE1AE2E49F00938A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EF083BF1AE2E49F00938A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EF083C11AE2E49F00938A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "messenger-for-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF083C21AE2E49F00938A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "messenger-for-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EF083C41AE2E49F00938A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "messenger-for-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/messenger-for-mac.app/Contents/MacOS/messenger-for-mac";
+			};
+			name = Debug;
+		};
+		4EF083C51AE2E49F00938A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "messenger-for-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/messenger-for-mac.app/Contents/MacOS/messenger-for-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EF0839F1AE2E49F00938A11 /* Build configuration list for PBXProject "messenger-for-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF083BE1AE2E49F00938A11 /* Debug */,
+				4EF083BF1AE2E49F00938A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF083C01AE2E49F00938A11 /* Build configuration list for PBXNativeTarget "messenger-for-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF083C11AE2E49F00938A11 /* Debug */,
+				4EF083C21AE2E49F00938A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EF083C31AE2E49F00938A11 /* Build configuration list for PBXNativeTarget "messenger-for-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF083C41AE2E49F00938A11 /* Debug */,
+				4EF083C51AE2E49F00938A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EF0839C1AE2E49F00938A11 /* Project object */;
+}
